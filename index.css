@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-image:url(https://tse3.mm.bing.net/th?id=OIP.6qNarP5L4_SdGQbrpVtDxQHaE8&pid=Api&P=0&h=180.jpg);
+    background-position: center;
+  }
+
+  header.banner {
+    background-color: #000;
+    height: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+
+  header.banner img.logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  header.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+
+  header.banner p {
+    font-size: 1.1rem;
+  }
+
+  nav {
+    background-color: #000;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  nav a {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #ffcc00;
+  }
+
+  main {
+    padding: 30px;
+    text-align: center;
+  }
+
+  main h2 {
+    color: #491111;
+    margin-bottom: 19px;
+  }
+
+  main p {
+    color: #f0f0f0;
+    font-size: 1.1rem;
+  }
+
+  main div {
+    color: white;
+    font-size: 1.1rem;
+  }
+
+  footer {
+    background-color: #000;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+  }
+
+  footer a:hover {
+    color: #ffcc00;
+  }
