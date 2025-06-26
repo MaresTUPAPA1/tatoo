@@ -44,3 +44,41 @@
   footer a:hover {
     color: #ffcc00;
   }
+
+@media (max-width: 900px) {
+  nav.menu a {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav.menu a {
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  nav.menu {
+    padding: 8px 0;
+  }
+  footer {
+    padding: 8px 0;
+  }
+  footer a {
+    margin: 0 3px;
+    font-size: 11px;
+  }
+}
+
+#tattoimg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+@media (max-width: 600px) {
+  #tattoimg {
+    margin: 10px auto;
+    max-width: 98vw;
+  }
+}

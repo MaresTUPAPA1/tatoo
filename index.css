@@ -93,3 +93,50 @@
   footer a:hover {
     color: #ffcc00;
   }
+
+@media (max-width: 900px) {
+  header.banner {
+    height: 180px;
+  }
+  header.banner h1 {
+    font-size: 2rem;
+  }
+  nav a {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  main {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  header.banner {
+    height: 120px;
+    padding: 10px 0;
+  }
+  header.banner img.logo {
+    width: 70px;
+  }
+  header.banner h1 {
+    font-size: 1.2rem;
+  }
+  nav {
+    padding: 8px 0;
+  }
+  nav a {
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  main {
+    padding: 5px;
+    font-size: 0.95rem;
+  }
+  footer {
+    padding: 8px 0;
+  }
+  footer a {
+    margin: 0 3px;
+    font-size: 11px;
+  }
+}

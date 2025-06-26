@@ -97,3 +97,47 @@ font-size: 14px;
 footer a:hover {
 color: #ffcc00;
 }
+
+@media (max-width: 900px) {
+  .contenedor-artistas {
+    padding: 15px;
+    gap: 15px;
+  }
+  .tarjeta-artista {
+    padding: 15px;
+  }
+  .tarjeta-artista img {
+    height: 160px;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 20px 5px;
+  }
+  header img {
+    width: 70px;
+  }
+  nav a {
+    margin: 0 8px;
+    font-size: 14px;
+  }
+  .contenedor-artistas {
+    grid-template-columns: 1fr;
+    padding: 8px;
+    gap: 10px;
+  }
+  .tarjeta-artista {
+    padding: 10px;
+  }
+  .tarjeta-artista img {
+    height: 120px;
+  }
+  footer {
+    padding: 10px 0;
+  }
+  footer a {
+    margin: 0 5px;
+    font-size: 12px;
+  }
+}
